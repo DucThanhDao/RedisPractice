@@ -1,0 +1,15 @@
+{
+  "name": "redispractice",
+  "version": "1.0.0",
+  "description": "Practice using Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Redis",
+    "Node"
+  ],
+  "author": "DucThanhDao",
+  "license": "ISC"
+}
