@@ -1,15 +1,27 @@
 {
-  "name": "redispractice",
+  "name": "structure-api-mvc-express-nodejs",
   "version": "1.0.0",
-  "description": "Practice using Redis",
+  "description": "structure api mvc express nodejs",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "doc": "docs"
   },
-  "keywords": [
-    "Redis",
-    "Node"
-  ],
-  "author": "DucThanhDao",
-  "license": "ISC"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "anonystick <anonystick@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "redis": "^3.1.2",
+    "winston": "^3.7.2"
+  }
 }
